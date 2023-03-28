@@ -68,6 +68,11 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
   use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
 
+  -- My
+  use "Pocco81/auto-save.nvim" -- auto-save
+  use "mg979/vim-visual-multi" -- multi-cursor
+  use "preservim/tagbar"       -- right side tags navigation, dont forget apt-get install universal-ctags
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
