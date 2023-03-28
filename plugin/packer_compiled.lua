@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/serg/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -198,6 +203,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/serg/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-visual-multi"] = {
     loaded = true,
