@@ -169,6 +169,16 @@ _G.packer_plugins = {
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/tagbar",
     url = "https://github.com/preservim/tagbar"
   },
+  ["telescope-media-files.nvim"] = {
+    loaded = true,
+    path = "/home/serg/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim",
+    url = "https://github.com/nvim-telescope/telescope-media-files.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/serg/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
   ["vim-visual-multi"] = {
     loaded = true,
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/vim-visual-multi",

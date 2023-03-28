@@ -68,6 +68,11 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
   use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
 
+  -- Telescope
+  -- dont forget apt-get install ripgrep
+  use "nvim-telescope/telescope.nvim"
+  use 'nvim-telescope/telescope-media-files.nvim'
+
   -- My
   use "Pocco81/auto-save.nvim" -- auto-save
   use "mg979/vim-visual-multi" -- multi-cursor
