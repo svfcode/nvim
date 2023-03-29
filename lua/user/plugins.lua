@@ -91,6 +91,19 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
 
+  -- Terminal
+  use 'nvim-lualine/lualine.nvim'
+  use "akinsho/toggleterm.nvim"
+
+  -- Recent files
+  use {
+    "nvim-telescope/telescope-frecency.nvim",
+    config = function()
+      require"telescope".load_extension("frecency")
+    end,
+    requires = {"kkharji/sqlite.lua"} -- dont forget sudo apt-get install sqlite3 libsqlite3-dev
+  }
+
   -- My
   use "Pocco81/auto-save.nvim" -- auto-save
   use "mg979/vim-visual-multi" -- multi-cursor
