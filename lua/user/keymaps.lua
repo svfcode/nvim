@@ -72,3 +72,5 @@ keymap("n", "<leader>ft", "<cmd>Telescope live_grep<cr>", opts)
 -- My --
 -- Toggle tags navigation panel
 keymap("n", "<A-h>", ":TagbarToggle<CR>", opts)
+-- Close buffer
+keymap("n", "<leader>c", ":Bdelete<CR>", opts)

@@ -87,6 +87,10 @@ return packer.startup(function(use)
   -- Git
   use "lewis6991/gitsigns.nvim"
 
+  -- Buffer
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
+
   -- My
   use "Pocco81/auto-save.nvim" -- auto-save
   use "mg979/vim-visual-multi" -- multi-cursor
