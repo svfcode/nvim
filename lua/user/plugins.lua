@@ -103,6 +103,7 @@ return packer.startup(function(use)
     end,
     requires = {"kkharji/sqlite.lua"} -- dont forget sudo apt-get install sqlite3 libsqlite3-dev
   }
+  use "smartpde/telescope-recent-files"
 
   -- My
   use "Pocco81/auto-save.nvim" -- auto-save

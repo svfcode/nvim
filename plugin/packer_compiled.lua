@@ -230,6 +230,11 @@ _G.packer_plugins = {
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim",
     url = "https://github.com/nvim-telescope/telescope-media-files.nvim"
   },
+  ["telescope-recent-files"] = {
+    loaded = true,
+    path = "/home/serg/.local/share/nvim/site/pack/packer/start/telescope-recent-files",
+    url = "https://github.com/smartpde/telescope-recent-files"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/telescope.nvim",

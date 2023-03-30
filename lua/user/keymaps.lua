@@ -65,10 +65,12 @@ keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+-- Telescope
 keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
 --keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<leader>ft", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<leader>fr", "<cmd>Telescope frecency<cr>", opts)
+keymap("n", "<leader>fe", "<cmd>lua require('telescope').extensions.recent_files.pick()<cr>", opts)
 
 -- My --
 -- Toggle tags navigation panel
