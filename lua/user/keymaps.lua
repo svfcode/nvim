@@ -71,6 +71,7 @@ keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "<leader>ft", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<leader>fr", "<cmd>Telescope frecency<cr>", opts)
 keymap("n", "<leader>fe", "<cmd>lua require('telescope').extensions.recent_files.pick()<cr>", opts)
+keymap("n", "<leader>fh", "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>", opts)
 
 -- My --
 -- Toggle tags navigation panel
