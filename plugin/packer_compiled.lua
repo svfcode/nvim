@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/colorschemes",
     url = "https://github.com/lunarvim/colorschemes"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/serg/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/serg/.local/share/nvim/site/pack/packer/start/friendly-snippets",
